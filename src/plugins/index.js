@@ -78,7 +78,7 @@ Vue.prototype.$totalWeight = function (mycarts) {
   if (mycarts) {
     let tWeight = 0
     mycarts.map(r => {
-      tWeight += (r.berat * r.jumlah)
+      tWeight += r.berat
     })
     tWeight = Math.ceil(tWeight / 1000)
     return tWeight
