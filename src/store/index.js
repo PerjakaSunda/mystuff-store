@@ -8,7 +8,7 @@ export default new Vuex.Store({
   strict: debug,
   state: {
     api: 'https://api.bradleysfootwear.com/api/',
-    apiDev: 'http://localhost:3031/api/',
+    apiDev: 'https://api.bradleysfootwear.com/api/',
     gridView: '',
     mycarts: []
   },
