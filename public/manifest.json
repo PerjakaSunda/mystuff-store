@@ -1,0 +1,10 @@
+{
+  "name": "MyStuff Store",
+  "short_name": "MyStuff Store",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/",
+  "splash_pages": null
+}
