@@ -152,6 +152,7 @@ export default {
     }
   },
   methods: {
+    /* eslint-disable */
     checkout () {
       const $ = this
       if (confirm('Pay Order ?')) {
